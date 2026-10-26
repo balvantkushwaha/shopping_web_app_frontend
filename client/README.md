@@ -34,12 +34,8 @@ npm run build
 
 ## Admin Access
 
-- Admin Mobile: 9999999999
-- OTP: 123456
-
-## Demo Credentials
-
-- Customer OTP: 123456 (any number)
+- Admin Mobile: XXXXXXXXXX
+- OTP: XXXX
 
 ## Tech Stack
 
@@ -54,7 +50,7 @@ npm run build
 
 \`\`\`
 src/
-├── components/     # Reusable components
+├── components/    # Reusable components
 ├── pages/         # Page components
 ├── data/          # Dummy data
 ├── redux/         # State management
