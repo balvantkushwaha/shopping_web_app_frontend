@@ -48,15 +48,23 @@ npm run build
 
 ## Folder Structure
 
-\`\`\`
+<pre>
 src/
-├── components/    # Reusable components
-├── pages/         # Page components
-├── data/          # Dummy data
-├── redux/         # State management
-├── routes/        # Routing configuration
-└── services/      # API services (future)
-\`\`\`
+├── assets/          # Images, icons, CSS files
+├── components/      # Reusable components
+│   ├── common/      # Buttons, loaders, modals
+│   ├── layout/      # Navbar, Footer, Sidebar
+│   └── products/    # ProductCard, ProductList
+├── pages/           # Home, Login, Register, Cart
+├── data/            # Dummy data
+├── redux/           # State management
+│   └── slices/      # Auth, Cart, Product
+├── routes/          # Routing configuration
+├── services/        # API calls
+├── App.jsx          # Main app component
+├── main.jsx         # Entry point
+└── index.css        # Global styles
+</pre>
 
 ## Future Backend Integration
 
